@@ -1,0 +1,7 @@
+version: '3'
+services:
+  Canvas:
+    image: Canvas:latest
+    build: .
+    container_name: Canvas
+    restart: unless-stopped
